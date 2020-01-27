@@ -1,7 +1,6 @@
 import React, {useContext} from 'react'
 import {BookContext} from '../contexts/BookContext'
 
-
 const Navbar = _ => {
     const {books} = useContext(BookContext)
     return (
